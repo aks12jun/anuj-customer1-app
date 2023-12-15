@@ -1,6 +1,6 @@
 FROM redhat/ubi8  
-LABEL name="ashutoshh"
-LABEL email="ashutoshh@linux.com"
+LABEL name="anujscode"
+LABEL email="netwebsqlexpert@gmail.com"
 # label is optional but to share image owner details to users 
 RUN dnf install httpd -y 
 COPY  dotnet-vhost.conf  /etc/httpd/conf.d/dotnet.conf 
