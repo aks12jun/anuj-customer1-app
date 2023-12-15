@@ -11,5 +11,5 @@ services: # apps containers you want to build and run
       dockerfile: httpd.dockerfile # name of dockerfile 
     container_name: anujc2 
     ports:
-      - 1234:5999  
+      - 59999:80  
   
